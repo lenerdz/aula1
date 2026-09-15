@@ -1,0 +1,44 @@
+h1 {
+    color: red;
+    background-color: rgba(38, 121, 215, 0.714);
+    font-size: 3em;
+}
+
+.titulo {
+    color: blueviolet;
+}
+
+.item-lista {
+    text-decoration: underline;
+}
+
+#elemento-php, #elemento-mysql {
+    color: fuchsia;
+}
+
+li:nth-child(2) {
+    color: rgb(19, 214, 19);
+}
+
+li:first-child {
+    color: black;
+    transition: 0.3s;
+}
+
+li:first-child:hover {
+    color: #a3f500;
+    transition: 0.3s;
+}
+
+div {
+    background-color: goldenrod; 
+    width: 120px; 
+    border-radius: 10px; 
+    border: 2px solid brown;
+    transition: 0.3s;
+}
+
+div:hover {
+    width: 150px;
+    transition: 0.3s;
+}
